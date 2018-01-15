@@ -1,6 +1,9 @@
 {
     "name": "react-redux-template",
     "version": "0.0.1",
+    "scripts": {
+        "build": "webpack"
+    },
     "dependencies": {
         "autoprefixer": "^6.5.4",
         "axios": "^0.13.1",
