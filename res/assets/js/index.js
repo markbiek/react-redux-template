@@ -6,6 +6,7 @@ import TestComponent from './components/TestComponent';
 
 class App extends React.Component {
     render () {
+        console.log('a fake change');
         return (
             <Provider store={store}>
                 <TestComponent />
