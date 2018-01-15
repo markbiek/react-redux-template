@@ -6,6 +6,10 @@ import TestComponent from './components/TestComponent';
 
 class App extends React.Component {
     render () {
+        if(true == false) {
+            console.log('wat');
+        }
+
         return (
             <Provider store={store}>
                 <TestComponent />
