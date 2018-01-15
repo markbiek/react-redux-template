@@ -2,7 +2,8 @@
     "name": "react-redux-template",
     "version": "0.0.1",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "lint": "./node_modules/.bin/eslint res/**/*.js"
     },
     "dependencies": {
         "autoprefixer": "^6.5.4",
@@ -13,6 +14,7 @@
         "babel-preset-react": "^6.11.1",
         "browser-sync": "^2.18.7",
         "del": "^2.2.2",
+        "eslint": "^4.15.0",
         "gulp": "^3.9.1",
         "gulp-autoprefixer": "^3.1.1",
         "gulp-babel": "^6.1.2",
